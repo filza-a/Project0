@@ -1,0 +1,37 @@
+﻿#button {
+    display: flex;
+    flex-shrink: inherit;
+
+    margin: auto;
+}
+
+
+#button {
+    float: left;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border: hidden;
+}
+
+#button:hover{
+    background-color: darkblue;
+}
+
+#google{
+    color: black;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    font-size: small;
+    right: 5px;
+}
+
+#google:hover{
+    text-decoration: underline;
+}
+
+#1{
+    color: darkred;
+    font-style: normal;
+}
